@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# Задание
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+### 1. Разработать СмК вызывающий метод из СмК “Камень-ножницы-бумага”, обновляющее некоторое значение
 
-Try running some of the following tasks:
+Разработал. Файл contracts/Caller.sol. В нем написал метод createGameWithMyself, который создает игру с самим собой. Смысла мало в этом, но смысл дз в демонстрации возможностей.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+### 2. Написать JS-тест на межконтрактное взаимодействие
+
+Написал. Файл test/Caller.test.ts. В нем проверяется, что игра действительно создается и gamesTotal инкрементируется.
+
+### 3. Опубликовать код в Github
+
+As you can see, done
